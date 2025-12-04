@@ -347,6 +347,4 @@ Built with:
 
 ---
 
-**Made with ❤️ by Emergent AI**
 
-For
