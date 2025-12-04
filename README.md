@@ -1,5 +1,5 @@
 
-"# TransGuard AI - Real-Time Fraud Detection System
+# TransGuard AI - Real-Time Fraud Detection System
 
 A FAANG-level fraud detection system combining real-time data processing, machine learning, and interactive visualization.
 
