@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "name": "E1",
+    "persona": "The Anti-AI Designer",
+    "mission": "Create a 'Control Room' aesthetic that feels like a high-stakes financial security center. Reject generic SaaS flatness. Embrace density, contrast, and technical precision.",
+    "principles": [
+      "Fusion: Finance Trust + Cyber Security Edge + Swiss Precision",
+      "Emotion: Urgent, Secure, Omniscient",
+      "Content: Data is the art. Don't decorate; visualize.",
+      "Contrast: High-contrast neon against deep void backgrounds."
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "JetBrains Mono",
+        "weights": ["700", "800"],
+        "usage": "Page titles, widget headers, big metrics, data values",
+        "fallback": "monospace"
+      },
+      "body": {
+        "family": "Manrope",
+        "weights": ["400", "500", "600"],
+        "usage": "Navigation, labels, table content, descriptions",
+        "fallback": "sans-serif"
+      }
+    },
+    "rules": [
+      "Use 'tracking-tight' for all headings larger than 24px.",
+      "Use 'tracking-wide' for all uppercase labels (e.g., 'TRANSACTION ID').",
+      "Numbers must ALWAYS use the Monospace font (JetBrains Mono) for alignment.",
+      "Line height should be 'leading-none' for big stats and 'leading-relaxed' for text."
+    ]
+  },
+  "colors": {
+    "palette_name": "The Midnight Watchtower",
+    "mode": "dark",
+    "base": {
+      "background": "#09090b",
+      "surface": "#18181b",
+      "surface_highlight": "#27272a",
+      "border": "#27272a"
+    },
+    "text": {
+      "primary": "#fafafa",
+      "secondary": "#a1a1aa",
+      "muted": "#52525b"
+    },
+    "brand": {
+      "primary": "#3b82f6",
+      "primary_glow": "rgba(59, 130, 246, 0.5)"
+    },
+    "functional": {
+      "success": "#10b981",
+      "success_bg": "rgba(16, 185, 129, 0.1)",
+      "warning": "#f59e0b",
+      "warning_bg": "rgba(245, 158, 11, 0.1)",
+      "danger": "#ef4444",
+      "danger_bg": "rgba(239, 68, 68, 0.1)",
+      "info": "#0ea5e9"
+    },
+    "gradients": {
+      "subtle_glow": "radial-gradient(circle at center, rgba(59, 130, 246, 0.15) 0%, transparent 70%)",
+      "scanline": "linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.2))"
+    }
+  },
+  "layout": {
+    "grid_system": "The Control Room Grid (Mode B)",
+    "container": "max-w-[1600px] mx-auto p-6",
+    "spacing": {
+      "gap": "gap-4",
+      "padding_card": "p-6",
+      "padding_section": "py-12"
+    },
+    "structure": [
+      "Sidebar Navigation (Fixed Left) - 64px or 240px collapsible",
+      "Top Bar (Glassmorphic) - Search & User Profile",
+      "Main Dashboard Area - 4-column Bento Grid"
+    ]
+  },
+  "components": {
+    "cards": {
+      "style": "Flat surface, 1px border, no shadow (unless hovering).",
+      "classes": "bg-card border border-border rounded-lg overflow-hidden relative"
+    },
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium px-4 py-2 shadow-[0_0_10px_rgba(59,130,246,0.3)]",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md px-4 py-2",
+      "ghost": "hover:bg-accent hover:text-accent-foreground rounded-md px-4 py-2",
+      "destructive": "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-md px-4 py-2 shadow-[0_0_10px_rgba(239,68,68,0.3)]"
+    },
+    "inputs": {
+      "style": "bg-background border-input focus:ring-2 focus:ring-primary/50 rounded-md h-10 px-3"
+    },
+    "charts": {
+      "library": "Recharts",
+      "style": "Minimalist. Remove grid lines if possible. Use custom tooltips with glassmorphism.",
+      "colors": ["#3b82f6", "#10b981", "#ef4444", "#f59e0b"]
+    },
+    "tables": {
+      "style": "Dense. Row height 40px. Header uppercase & tracking-wide. Alternating row colors optional.",
+      "font": "Numbers in JetBrains Mono."
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-background/70 border-b border-white/5",
+    "grid_lines": "Background pattern of 1px dashed lines to give a 'blueprint' feel.",
+    "status_indicators": "Glowing dots (w-2 h-2 rounded-full animate-pulse) next to 'Live' status.",
+    "micro_interactions": "Hovering a card should slightly brighten the border (border-zinc-700 -> border-zinc-500)."
+  },
+  "image_urls": {
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDc1MDcxOHww&ixlib=rb-4.1.0&q=85",
+        "category": "user_avatar",
+        "description": "Male analyst in hoodie"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1689600944138-da3b150d9cb8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDc1MDcxOHww&ixlib=rb-4.1.0&q=85",
+        "category": "user_avatar",
+        "description": "Female professional"
+      }
+    ],
+    "backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1759661881353-5b9cc55e1cf4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGN5YmVyJTIwc2VjdXJpdHklMjBuZXR3b3JrJTIwYmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8fHwxNzY0ODQxMjc5fDA&ixlib=rb-4.1.0&q=85",
+        "category": "login_bg",
+        "description": "Dark code/monitor background"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add '@fontsource/jetbrains-mono' and '@fontsource/manrope' immediately.",
+    "2. DARK MODE DEFAULT: Force the app into dark mode. Do not even build a light mode unless explicitly asked. The 'Control Room' vibe dies in white.",
+    "3. BENTO GRID: Use the 'Mode B' grid strategy. Dashboard should be a dense grid of widgets.",
+    "4. REAL-TIME FEEL: Use the 'animate-pulse' class on live indicators. Make the UI feel 'alive'.",
+    "5. NO ROUNDED CORNERS > 8px: Keep it sharp and technical. 'rounded-lg' (0.5rem) is the max.",
+    "6. USE SHADCN: But customize it. Strip the default white backgrounds and replace with Zinc-900/950.",
+    "7. DATA-TESTID: Every button, input, and chart container MUST have a data-testid attribute."
+  ],
+  "universal_guidelines": [
+    "Don't make generic centered layouts.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable inside containers.",
+    "Subtle grain textures and noise overlays are encouraged."
+  ]
+}
